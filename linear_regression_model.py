@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 import datetime
 
 # import solar panel data for The Bronx, NY (full year of 2006) and split Date and Time into new columns
-df = pd.read_csv('/Users/tareq/solar_panel_model/ny-pv-2006/Actual_40.85_-73.85_2006_DPV_21MW_5_Min.csv')
+df = pd.read_csv('.//Actual_40.85_-73.85_2006_DPV_21MW_5_Min.csv')
 df['LocalTime'] = pd.to_datetime(df['LocalTime']) 
 df['Date'] = df['LocalTime'].dt.date
 df['Time'] = df['LocalTime'].dt.time

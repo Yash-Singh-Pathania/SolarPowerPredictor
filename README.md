@@ -6,6 +6,7 @@ Here's an updated version of your README with a more casual tone:
 
 Hey there! This is a little side project I worked on as part of my learning journey. It's all about using a polynomial regression model to predict the solar intensity of solar panels based on local weather data. I found this super interesting and thought I'd give it a try!
 
+You can check out the full details of the project in the [Jupyter Notebook](https://github.com/Yash-Singh-Pathania/SolarPowerPredictor/blob/main/solar_polynomial_regression.ipynb).
 
 ## Weather Data Inputs
 
@@ -40,3 +41,4 @@ Here are a few things I assumed while working with the data:
 
 - **NOAA weather data files**: [NOAA FTP](ftp://ftp.ncdc.noaa.gov/pub/data/asos-fivemin/6401-2006)
 - **Solar panel performance data**: [NREL Solar Power Data](https://www.nrel.gov/grid/solar-power-data.html)
+
